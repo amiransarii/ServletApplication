@@ -14,7 +14,8 @@
 	<!-- File name="File" fileName="C:/logs/quoteupdater/log/quoteupdater.log">
       <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %p [%t] %c{1.} - %msg%n" />
     </File -->
-	<RollingFile name="RollingFile" fileName="C:/Developments/Eclipse Projects/logs/servletapplication/log/servletapplication.log" filePattern="C:/Developments/Eclipse Projects/logs/servletapplication/logs/$${date:yyyy-MM}/app-%d{yyyy-MM-dd}-%i.log.gz">
+	<RollingFile name="RollingFile" fileName="C:/Developments/Eclipse Projects/logs/standaloneapp/log/standaloneapp.log" 
+	filePattern="C:/Developments/Eclipse Projects/logs/standaloneapp/logs/$${date:yyyy-MM}/app-%d{yyyy-MM-dd}-%i.log.gz">
       <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %p [%t] %c{1.} - %msg%n" />
       <Policies>
         <TimeBasedTriggeringPolicy />
